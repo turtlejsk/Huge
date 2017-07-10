@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:gravity="center_vertical"
+        android:textAlignment="viewStart"
+        />
+    <TextView
+        android:id="@android:id/text2"
+        android:text="3 need recharge"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textAlignment="viewStart"
+        android:layout_toEndOf="@android:id/text1"
+        android:layout_toRightOf="@android:id/text1"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:padding="5dp"
+        />
+</RelativeLayout>
+<!--
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+    android:textAppearance="?android:attr/textAppearanceListItem"
+    android:gravity="center_vertical"
+    android:textAlignment="viewStart"
+    />
+-->
+
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bldgName"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:gravity="center_vertical"
+    android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+    android:textAppearance="?android:attr/textAppearanceListItem"
+
+    />
+-->
+<!--
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+</LinearLayout>
+-->

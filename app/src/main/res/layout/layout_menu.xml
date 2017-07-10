@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="15dip"
+        android:text="H U G E"
+        android:layout_centerVertical="true"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_newgroup"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="15dip"
+        android:background="#FFFFFF"
+        android:text="새 그룹 만들기"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_mygroup"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="15dip"
+        android:text="나의 그룹 목록"
+        android:background="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="15dip"
+        android:text="설 정"
+        android:background="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

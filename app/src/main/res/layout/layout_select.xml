@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:text="담당 구역을 설정하세요"
+                android:id="@+id/tv_notice"
+                    android:textSize="30dp"
+                android:layout_weight="0.55"
+                android:gravity="center_vertical|center|center_horizontal" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Frontier"
+                    android:id="@+id/btn_fron"
+                    />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Hightech"
+                android:id="@+id/btn_high"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_mugung"
+                android:text="Mugung"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_dasan"
+                android:text="Dasan"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_mirae"
+                android:text="Mirae"
+                />
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_davinci"
+                android:text="Davinci"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_language"
+                android:text="Language"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_eoui"
+                android:text="Eoui"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btn_finish"
+                android:layout_gravity="center_horizontal"
+                android:text="설정완료"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button" />
+
+
+</LinearLayout>

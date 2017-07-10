@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Huge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="email">
+    <item>"도메인 선택"</item>
+    <item>"@naver.com"</item>
+    <item>"@nate.com"</item>
+    <item>"@gmail.com"</item>
+    <item>"@daum.net"</item>
+    </string-array>
+</resources>
